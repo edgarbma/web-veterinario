@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    /* bg-slate-100 aplica un gris neutro suave (#f1f5f9) muy descansado a la vista */
+    @apply bg-slate-100 text-slate-800 antialiased min-h-screen;
+  }
+}
+
+/* Personalización opcional para la tabla */
+.vacunas-table th,
+.vacunas-table td {
+  @apply text-left border-slate-200;
+}
